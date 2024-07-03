@@ -2,17 +2,6 @@
 
 This repository contains scripts and instructions for fine-tuning the Llama 2 7B model on a unit test generation dataset using QLoRA. The model is fine-tuned on Google Colab, leveraging the T4 GPU for computation.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Requirements](#requirements)
-- [Setup](#setup)
-- [Fine-Tuning](#fine-tuning)
-- [Dataset](#dataset)
-- [Results](#results)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
-
 ## Overview
 
 The goal of this project is to fine-tune the Llama 2 7B model for generating unit tests from given code snippets. The training process utilizes the QLoRA method to optimize memory usage and computational efficiency.
@@ -47,7 +36,6 @@ Download the dataset from Kaggle:
 !kaggle datasets download -d walimuhammadahmad/method2test
 !unzip dataset-name.zip -d dataset
 ```
-[This code is a Notebook cell]
 
 # Mdel and training parameters
 
